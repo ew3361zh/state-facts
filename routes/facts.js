@@ -29,7 +29,7 @@ router.get('/letter-query/:letter', function(req, res, next) {
         // console.log(stateMatches[i].startsWith(letter))
         //using the (thank you) startsWith function, checking matches against
         //the req.params.letter from the user query
-        if(stateNames[i].startsWith(letter)) {
+        if(stateNames[i].toUpperCase().startsWith(letter)) {
             // console.log(stateNames[i])
             //get the fact associated with the particular match
             let fact = stateData[stateNames[i]]
