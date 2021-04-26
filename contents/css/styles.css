@@ -1,0 +1,10 @@
+body {
+    padding: 3rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: rgb(221, 233, 236);
+}
+
+a.api-url {
+    font-family: monospace;
+    background-color: aqua;
+}
